@@ -2,13 +2,12 @@ body {
   text-align: center;
   font-family: sans-serif;
   margin: 0px;
-  -webkit-animation: fadein 5s;
-  animation: fadein 5s;
 }
 
 #logo {
   width: 200px;
   height: 200px;
+  -webkit-animation: fadein 5s;
 }
 
 #header
@@ -42,7 +41,7 @@ body {
   border-radius: 20px;
   width: 100px;
   overflow: auto;
-  cursor:pointer;
+  -webkit-animation: fadein 3s;
 }
 
 .buttons li:hover {
@@ -59,11 +58,11 @@ body {
 {
   color: #FFF;
   text-decoration: none;
-
+  
 }
 
 /* Button Animation */
-@-webkit-keyframes fadein, @keyframes fadein{
+@-webkit-keyframes fadein {
   0% {
     opacity: 0;
     top: 200%
