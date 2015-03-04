@@ -20,11 +20,13 @@ body {
 {
   display: none;
   -webkit-animation: fadein 2s;
+  animation: fadein 2s;
 }
 
 .selected {
   display: block !important;
   -webkit-animation: fadein 3s;
+  animation: fadein 3s;
 }
 
 .hidden {
@@ -65,6 +67,14 @@ body {
 
 /* Button Animation */
 @-webkit-keyframes fadein{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein{
   0% {
     opacity: 0;
   }
