@@ -20,11 +20,13 @@ body {
 {
   display: none;
   -webkit-animation: fadein 2s;
+  animation: fadein 2s;
 }
 
 .selected {
   display: block !important;
   -webkit-animation: fadein 3s;
+  animation: fadein 3s;
 }
 
 .hidden {
@@ -43,6 +45,7 @@ body {
   border-radius: 20px;
   width: 100px;
   overflow: auto;
+  cursor:pointer;
 }
 
 .buttons li:hover {
@@ -63,14 +66,12 @@ body {
 }
 
 /* Button Animation */
-@-webkit-keyframes fadein {
+@-webkit-keyframes fadein, @keyframes fadein {
   0% {
     opacity: 0;
-    top: 200%
   }
   100% {
     opacity: 1;
-    top: 0%
   }
 }
 
