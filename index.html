@@ -24,9 +24,9 @@
     <!-- Buttons -->
     <div class="buttons">
       <ul>
-            <li class="about-button"><a href="#about">About</a></li>
-              <li class="projects-button"><a href="#projects">Projects</a></li>
-             <li class="contact-button"><a href="#contact">Contact</a></li>
+            <a href="#about"><li class="about-button">About</li></a>
+             <a href="#projects"><li class="projects-button">Projects</li></a>
+             <a href="#contact"><li class="contact-button">Contact</li></a>
         </ul>
     </div>
     <div id="content">
@@ -53,7 +53,7 @@
                       ltr = coded.charAt(i)
                       link += (ltr)
                     }
-                    else {     
+                    else {
                       ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
                       link += (key.charAt(ltr))
                     }
