@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+}
+
+#header
+{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Content Area */
+.content-text
+{
+  display: none;
+}
+
+.selected {
+  display: block !important;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Buttons */
+.buttons li {
+  transition: background-color 0.2s;
+  background-color: #006cbe;
+  color: #FFF;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 4px 4px;
+  border-radius: 20px;
+}
+
+.buttons li:hover {
+  background-color: #005292;
+}
+
+.buttons ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Button Link */
+.buttons li a
+{
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* A "container" for the page, making it so it doesn't fill the entire screen on large monitors" */
+#container {
+  height: 100%;
+  background-color: #f7f7f7;
+  max-width: 960px;
+  text-align: center;
+  padding: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
