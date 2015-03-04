@@ -7,15 +7,18 @@ body {
 #logo {
   width: 200px;
   height: 200px;
+  -webkit-animation: fadein 5s;
 }
 
-#header {
+#header
+{
   font-size: 16px;
   font-weight: bold;
 }
 
 /* Content Area */
-.content-text {
+.content-text
+{
   display: none;
 }
 
@@ -37,7 +40,8 @@ body {
   margin: 4px 4px;
   border-radius: 20px;
   width: 100px;
-  overflow:auto;
+  overflow: auto;
+  -webkit-animation: fadein 3s;
 }
 
 .buttons li:hover {
@@ -50,12 +54,26 @@ body {
 }
 
 /* Button Link */
-.buttons li a {
+.buttons li a
+{
   color: #FFF;
   text-decoration: none;
+  
 }
 
-/* A "container" for the page, making it so it doesn't fill the entire screen on large monitors" */
+/* Button Animation */
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+    top: 200%
+  }
+  100% {
+    opacity: 1;
+    top: 0%
+  }
+}
+
+/* A "container" for the page, making it so it doesn't fill the entire screen on large monitors. */
 #container {
   height: 100%;
   background-color: #f7f7f7;
