@@ -36,6 +36,8 @@ body {
   padding: 10px 20px;
   margin: 4px 4px;
   border-radius: 20px;
+  width: 100px;
+  overflow:auto;
 }
 
 .buttons li:hover {
