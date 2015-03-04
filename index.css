@@ -1,0 +1,66 @@
+#logo { 
+  width: 200px;
+  height: 200px;
+}
+
+.content-text
+{
+    display: none;
+}
+
+.selected {
+    display: block !important;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Button Instance */
+.buttons li {
+    transition: background-color 0.2s;
+    background-color: #006cbe;
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 4px 4px;
+    border-radius: 20px;
+}
+
+.buttons li:hover {
+    background-color: #005292;
+}
+
+.buttons ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Button Link */
+.buttons li a
+{
+   color: #FFF;    
+   text-decoration: none;
+}
+
+#header
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* A "container" for the page, making it so it doesn't fill the entire screen on large monitors" */
+#container {
+    height: 100%;
+    background-color: #f7f7f7;
+    max-width: 960px;
+    text-align: center;
+    padding: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif; 
+}
