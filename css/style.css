@@ -2,7 +2,6 @@ body {
   text-align: center;
   font-family: sans-serif;
   margin: 0px;
-  -webkit-animation: fadein 5s;
 }
 
 #logo {
@@ -24,6 +23,7 @@ body {
 
 .selected {
   display: block !important;
+  -webkit-animation: fadein 5s;
 }
 
 .hidden {
