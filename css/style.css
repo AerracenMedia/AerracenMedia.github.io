@@ -19,6 +19,7 @@ body {
 .content-text
 {
   display: none;
+  -webkit-animation: fadein 2s;
 }
 
 .selected {
@@ -28,7 +29,7 @@ body {
 
 .hidden {
   display: none;
-  -webkit-animation: fadein 2s;
+  
 }
 
 /* Buttons */
