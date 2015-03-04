@@ -1,26 +1,23 @@
-$(document).ready(function () {
+(function(){
+  "use strict";
 
-  $(".about-button").click(
-    function () {
-      $('#about-text').addClass("selected");
-      $('#projects-text').removeClass("selected");
-      $('#contact-text').removeClass("selected");
-    }
-  );
+  $(document).ready(function () {
 
-  $(".projects-button").click(
-    function () {
-      $('#projects-text').addClass("selected");
-      $('#about-text').removeClass("selected");
-      $('#contact-text').removeClass("selected");
+    if (location.hash) {
+      showPage(location.hash.substring(1));
     }
-  );
 
-  $(".contact-button").click(
-    function () {
-      $('#contact-text').addClass("selected");
-      $('#about-text').removeClass("selected");
-      $('#projects-text').removeClass("selected");
-    }
-  );
-});
+    $(window).on('hashchange', function() {
+      showPage(location.hash.substring(1));
+    });
+
+  });
+
+  function showPage(page){
+    $("#projects-text").removeClass("selected");
+    $("#about-text").removeClass("selected");
+    $("#contact-text").removeClass("selected");
+    $("#"+page+"-text").addClass("selected");
+  }
+
+}());
