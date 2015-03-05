@@ -12,8 +12,8 @@ body {
   font-weight: bold;
 }
 
-p::first-line {
-  padding-left:5em;
+p {
+  text-indent: 2em;
 }
 
 /* Content Area */
