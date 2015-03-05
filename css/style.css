@@ -2,7 +2,7 @@ body {
   text-align: center;
   font-family: sans-serif;
   margin: 0px;
-  background-image: "Background.png";
+  background-image: url("Background.png");
 }
 #logo {
   width: 200px;
