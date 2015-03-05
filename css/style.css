@@ -93,6 +93,10 @@ span.name {
   font-weight: bold;
 }
 
+span.tagline {
+  padding-left: 1em;
+}
+
 /* Helpers */
 
 .center {
