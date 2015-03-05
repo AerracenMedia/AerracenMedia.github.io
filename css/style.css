@@ -1,9 +1,20 @@
 body {
+  background-image: url("../images/Background.jpg");
   text-align: center;
   font-family: sans-serif;
+  color: white;
   margin: 0px;
-  background-image: url("Background.png");
 }
+a:link {
+  color: #A6A6CF;
+}
+a:hover {
+  color: #D1D1E7;
+}
+a:visited {
+  color: #A6A6CF;
+}
+
 #logo {
   width: 200px;
   height: 200px;
@@ -30,7 +41,7 @@ body {
 
 .buttons li {
   transition: background-color 0.2s;
-  background-color: #0066FF;
+  background-color: #0052CC;
   color: #FFF;
   display: inline-block;
   padding: 10px 20px;
@@ -77,7 +88,7 @@ body {
 
 #container {
   height: 100%;
-  background-color: #f7f7f7;
+  background-color:rgba(0, 0, 0, 0.5);
   max-width: 960px;
   max-height: 1080px;
   min-height: 800px;
