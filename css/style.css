@@ -5,6 +5,8 @@ body {
   color: white;
   margin: 0px;
 }
+/* Link Colors */
+
 a:link {
   color: #A6A6CF;
 }
@@ -14,6 +16,7 @@ a:hover {
 a:visited {
   color: #A6A6CF;
 }
+/* Logo and Header */
 
 #logo {
   width: 200px;
@@ -23,7 +26,6 @@ a:visited {
   font-size: 16px;
   font-weight: bold;
 }
-
 /* Content Area */
 
 .content-text {
@@ -31,8 +33,8 @@ a:visited {
 }
 .selected {
   display: block !important;
-  -webkit-animation: fadein 2s;
-  animation: fadein 2s;
+  -webkit-animation: fadein 1s;
+  animation: fadein 1s;
 }
 .hidden {
   display: none;
@@ -64,7 +66,6 @@ a:visited {
   color: #FFF;
   text-decoration: none;
 }
-
 /* Animations */
 
 @-webkit-keyframes fadein {
@@ -83,14 +84,12 @@ a:visited {
     opacity: 1;
   }
 }
-
 /* A "container" for the page, making it so it doesn't fill the entire screen on large monitors. */
 
 #container {
   height: 100%;
-  background-color:rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   max-width: 960px;
-  max-height: 1080px;
   min-height: 800px;
   text-align: center;
   padding: 64px;
