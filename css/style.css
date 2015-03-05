@@ -3,38 +3,31 @@ body {
   font-family: sans-serif;
   margin: 0px;
 }
-
 #logo {
   width: 200px;
   height: 200px;
 }
-
-#header
-{
+#header {
   font-size: 16px;
   font-weight: bold;
 }
-
 /* Content Area */
-.content-text
-{
+
+.content-text {
   display: none;
   -webkit-animation: fadein 2s;
   animation: fadein 2s;
 }
-
 .selected {
   display: block !important;
   -webkit-animation: fadein 3s;
   animation: fadein 3s;
 }
-
 .hidden {
   display: none;
-  
 }
-
 /* Buttons */
+
 .buttons li {
   transition: background-color 0.2s;
   background-color: #006cbe;
@@ -45,45 +38,41 @@ body {
   border-radius: 20px;
   width: 100px;
   overflow: auto;
-  cursor:pointer;
+  cursor: pointer;
 }
-
 .buttons li:hover {
   background-color: #005292;
 }
-
 .buttons ul {
   padding: 0px;
   margin: 0px;
 }
-
 /* Button Link */
-.buttons li a
-{
+
+.buttons li a {
   color: #FFF;
   text-decoration: none;
-  
 }
-
 /* Button Animation */
-@-webkit-keyframes fadein{
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fadein{
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* A "container" for the page, making it so it doesn't fill the entire screen on large monitors. */
+
 #container {
   height: 100%;
   background-color: #f7f7f7;

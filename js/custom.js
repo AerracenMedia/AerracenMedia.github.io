@@ -1,7 +1,7 @@
-(function(){
+(function() {
   "use strict";
 
-  $(document).ready(function () {
+  $(document).ready(function() {
 
     if (location.hash) {
       showPage(location.hash.substring(1));
@@ -13,11 +13,11 @@
 
   });
 
-  function showPage(page){
+  function showPage(page) {
     $("#projects-text").removeClass("selected");
     $("#about-text").removeClass("selected");
     $("#contact-text").removeClass("selected");
-    $("#"+page+"-text").addClass("selected");
+    $("#" + page + "-text").addClass("selected");
   }
 
 }());

@@ -1,75 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta content="IE=edge" http-equiv="X-UA-Compatible">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<meta content="Aerracen Media" name="description">
-<meta content="Aerracen Media" name="keywords">
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="Aerracen Media" name="description">
+  <meta content="Aerracen Media" name="keywords">
 
-<title>Aerracen Media</title>
+  <title>Aerracen Media</title>
 
-<link href="./css/style.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
 
-<link rel="icon" type="image/x-icon" href="./images/AerracenMedia.png">
+  <link rel="icon" type="image/x-icon" href="./images/AerracenMedia.png">
 
-<script src="./js/jquery.min.js" type='text/javascript'></script>
-<script src="./js/custom.js"></script>
+  <script src="./js/jquery.min.js" type='text/javascript'></script>
+  <script src="./js/custom.js"></script>
 </head>
+
 <body>
-    <div id="container">
-    <img id="logo" src="./images/AerracenMedia.png"/>
+  <div id="container">
+    <img id="logo" src="./images/AerracenMedia.png" />
     <p id="header">Aerracen Media</p>
 
     <!-- Buttons -->
     <div class="buttons">
       <ul>
-            <a href="#about"><li class="about-button">About</li></a>
-             <a href="#projects"><li class="projects-button">Projects</li></a>
-             <a href="#contact"><li class="contact-button">Contact</li></a>
-        </ul>
+        <a href="#about">
+          <li class="about-button">About</li>
+        </a>
+        <a href="#projects">
+          <li class="projects-button">Projects</li>
+        </a>
+        <a href="#contact">
+          <li class="contact-button">Contact</li>
+        </a>
+      </ul>
     </div>
     <div id="content">
-        <div id="about-text" class="content-text selected">
-          <p>Aerracen Media is a small studio founded by Isaac J. Torbett;</p>
-        </div>
-        <div id="projects-text" class="content-text hidden">
-          <p>
-            <strong>Active Projects: <br> </strong>
-            <b> - </b><a href="">Athius: Interactive Map</a></br>
-            <br><strong>Inactive Projects: <br> </strong>
-            <b> - </b><a href="https://bitbucket.org/Izach/aerracencore/overview">Aerracen Core</a></br>
-          </p>
-        </div>
-        <div id="contact-text" class="content-text hidden">
-          <p>
-              <script type="text/javascript" language="javascript">
-                <!--
-                // Email obfuscator script 2.1 by Tim Williams, University of Arizona
-                // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
-                // This code is freeware provided these four comment lines remain intact
-                // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-                { coded = "rYzAQjTJ@tNzr4.AxN"
-                  key = "ZWDsONb8Y6BAuygLrQqKpvlRodU7EV52tIa130Mk4HxnGw9eFmjCzTJcfXPSih"
-                  shift=coded.length
-                  link=""
-                  for (i=0; i<coded.length; i++) {
-                    if (key.indexOf(coded.charAt(i))==-1) {
-                      ltr = coded.charAt(i)
-                      link += (ltr)
-                    }
-                    else {
-                      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-                      link += (key.charAt(ltr))
-                    }
-                  }
-                document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+      <div id="about-text" class="content-text selected">
+        <p>Aerracen Media is a small studio founded by Isaac J. Torbett;</p>
+      </div>
+      <div id="projects-text" class="content-text hidden">
+        <p>
+          <strong>Active Projects:
+            <br> </strong>
+          <b> - </b><a href="">Athius: Interactive Map</a>
+          </br>
+          <br>
+          <strong>Inactive Projects:
+            <br> </strong>
+          <b> - </b><a href="https://bitbucket.org/Izach/aerracencore/overview">Aerracen Core</a>
+          </br>
+        </p>
+      </div>
+      <div id="contact-text" class="content-text hidden">
+        <p>
+          <script type="text/javascript" language="javascript">
+            <!--
+            // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+            // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+            // This code is freeware provided these four comment lines remain intact
+            // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+            {
+              coded = "rYzAQjTJ@tNzr4.AxN"
+              key = "ZWDsONb8Y6BAuygLrQqKpvlRodU7EV52tIa130Mk4HxnGw9eFmjCzTJcfXPSih"
+              shift = coded.length
+              link = ""
+              for (i = 0; i < coded.length; i++) {
+                if (key.indexOf(coded.charAt(i)) == -1) {
+                  ltr = coded.charAt(i)
+                  link += (ltr)
+                } else {
+                  ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
+                  link += (key.charAt(ltr))
                 }
-                //-->
-                </script>
-          </p>
-        </div>
+              }
+              document.write("<a href='mailto:" + link + "'>" + link + "</a>")
+            }
+            //-->
+          </script>
+        </p>
+      </div>
     </div>
-    </div>
+  </div>
 </body>
+
 </html>
