@@ -16,8 +16,6 @@ body {
 
 .content-text {
   display: none;
-  -webkit-animation: fadeout 2s;
-  animation: fadeout 2s;
 }
 .selected {
   display: block !important;
@@ -74,29 +72,14 @@ body {
   }
 }
 
-@-webkit-keyframes fadeout {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes fadeout {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
 /* A "container" for the page, making it so it doesn't fill the entire screen on large monitors. */
 
 #container {
   height: 100%;
   background-color: #f7f7f7;
   max-width: 960px;
+  max-height: 1080px;
+  min-height: 800px;
   text-align: center;
   padding: 64px;
   margin-left: auto;
