@@ -16,13 +16,13 @@ body {
 
 .content-text {
   display: none;
-  -webkit-animation: fadein 2s;
-  animation: fadein 2s;
+  -webkit-animation: fadeout 2s;
+  animation: fadeout 2s;
 }
 .selected {
   display: block !important;
-  -webkit-animation: fadein 3s;
-  animation: fadein 3s;
+  -webkit-animation: fadein 2s;
+  animation: fadein 2s;
 }
 .hidden {
   display: none;
@@ -54,7 +54,8 @@ body {
   color: #FFF;
   text-decoration: none;
 }
-/* Button Animation */
+
+/* Animations */
 
 @-webkit-keyframes fadein {
   0% {
@@ -72,6 +73,24 @@ body {
     opacity: 1;
   }
 }
+
+@-webkit-keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 /* A "container" for the page, making it so it doesn't fill the entire screen on large monitors. */
 
 #container {
