@@ -76,7 +76,8 @@ body {
 
 #container {
   height: 100%;
-  background-color: #f7f7f7;
+  background-image: "Background.png";
+  /*background-color: #f7f7f7;*/
   max-width: 960px;
   max-height: 1080px;
   min-height: 800px;
