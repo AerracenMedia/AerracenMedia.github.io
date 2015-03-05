@@ -13,7 +13,7 @@ body {
 }
 
 p::first-line {
-  padding-left:5em
+  padding-left:5em;
 }
 
 /* Content Area */
