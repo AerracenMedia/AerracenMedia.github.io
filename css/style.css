@@ -102,8 +102,11 @@ ul.slist {
   list-style-type: none;
 }
 ul.slist li {
+  transition: background 0.4s;
+  -webkit-transition: background 0.4s;
+  border-radius: 8px;
   display: inline-block;
-  padding: 5px;
+  padding: 6px;
   background-color: rgba(0, 0, 0, 0.4);
   overflow: auto;
   min-width: 100%;
@@ -116,15 +119,14 @@ ul.slist li:nth-child(odd) {
 ul.slist li:hover {
   border-color: rgba(0, 0, 0, 0.5);
   background-color: rgba(0, 0, 0, 0);
-  transition: background 0.4s;
-  -webkit-transition: background 0.4s;
 }
 ul.slist img {
   display: inline;
   width: 64px;
   height: 64px;
   float: left;
-  padding-right: 7px;
+  border-radius: 8px;
+  margin-right: 8px;
 }
 ul.slist a:link {
   color: white;
@@ -155,7 +157,7 @@ ul.slist a:visited {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   max-width: 960px;
-  min-height: 800px;
+  min-height: 960px;
   text-align: center;
   padding: 64px;
   margin-left: auto;
