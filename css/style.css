@@ -102,8 +102,12 @@ ul.slist {
   list-style-type: none;
 }
 ul.slist li {
+  transition: border 0.4s;
+    -webkit-transition: border 0.4s;
+    -moz-transition: border 0.4s;
   transition: background 0.4s;
-  -webkit-transition: background 0.4s;
+    -webkit-transition: background 0.4s;
+    -moz-transition: background 0.4s;
   border-radius: 8px;
   display: inline-block;
   padding: 6px;
