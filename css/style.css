@@ -24,8 +24,9 @@ a:visited {
   height: 200px;
 }
 #header {
-  font-size: 32px;
+  font-size: 48px;
   font-weight: bold;
+  margin: 8px 0px 16px 0px;
 }
 
 /* Content Area */
