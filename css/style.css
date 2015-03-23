@@ -115,6 +115,10 @@ ul.slist li {
   overflow: auto;
   min-width: 100%;
 }
+
+ul.slist li p {
+    padding: 0px;
+}
 ul.slist li:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
