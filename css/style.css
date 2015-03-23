@@ -102,25 +102,28 @@ ul.slist {
   list-style-type: none;
 }
 ul.slist li {
-  /*transition: border 0.4s;*/
-  /*-webkit-transition: border 0.4s;*/
-  /*-moz-transition: border 0.4s;*/
   transition: background 0.4s;
     -webkit-transition: background 0.4s;
     -moz-transition: background 0.4s;
+  transition: padding 0.2s;
+    -webkit-transition: padding 0.2s;
+    -moz-transition: padding 0.2s;
   border-radius: 8px;
   display: inline-block;
-  padding: 4px;
+  padding: 4px 6px;
   background-color: rgba(0, 0, 0, 0.4);
   overflow: auto;
   min-width: 100%;
-  border-color: rgba(0, 0, 0, 0);
-  border-style: solid;
 }
 ul.slist li:hover {
-  /*border-color: rgba(0, 0, 0, 0.5);*/
-  background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
+
+ul.slist li.dropdown:hover {
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
 ul.slist img {
   display: inline;
   width: 64px;
