@@ -11,6 +11,12 @@
       showPage(location.hash.substring(1));
     });
 
+	$("ul.slist .dropdown").click(function(e){
+		var targetChildren=$(this).children(".hideable");
+		$("ul.slist li.dropdown .hideable").not(targetChildren).slideUp();
+		targetChildren.slideToggle();
+  	});
+	
   });
 
   function showPage(page) {
