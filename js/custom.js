@@ -16,7 +16,7 @@
 		$("ul.slist li.dropdown .hideable").not(targetChildren).slideUp();
 		targetChildren.slideToggle();
   	});
-	
+
   });
 
   function showPage(page) {
