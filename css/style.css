@@ -52,9 +52,10 @@ ul.sicons li img {
 }
 
 /*ul.sicons li:nth-child(1) img { background: #55ACEE; }*/
-ul.sicons li:nth-child(1) img { background: #FFF; }
-ul.sicons li:nth-child(2) img { background: #e52d27; }
-ul.sicons li:nth-child(3) img { background: #f5f5f5; }
+ul.sicons li:nth-child(1) img { background: #205081; }
+ul.sicons li:nth-child(2) img { background: #FFF; }
+ul.sicons li:nth-child(3) img { background: #e52d27; }
+ul.sicons li:nth-child(4) img { background: #f5f5f5; }
 
 footer {
     background-color: #000;
