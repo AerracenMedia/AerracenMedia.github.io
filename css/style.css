@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,300);
 body {
-  background-image: url("../images/Background.jpg");
+  background: url("../images/Background.jpg") no-repeat center center fixed;
   text-align: center;
   font-family: 'Lato', sans-serif;
   color: white;
@@ -64,6 +64,10 @@ ul.sicons li img {
     -o-box-reflect: below 4px
         -o-gradient(linear, left top, left bottom, from(transparent),
         color-stop(65%, transparent) , to(rgba(250, 250, 250, 0.2)));
+        
+    box-reflect: below 4px
+        -o-gradient(linear, left top, left bottom, from(transparent),
+        color-stop(65%, transparent) , to(rgba(250, 250, 250, 0.2)));
 }
 
 ul.sicons li a img {
@@ -83,6 +87,24 @@ ul.sicons li:nth-child(1) img { background: #205081; }
 ul.sicons li:nth-child(2) img { background: #FFF; }
 ul.sicons li:nth-child(3) img { background: #e52d27; }
 ul.sicons li:nth-child(4) img { background: #f5f5f5; }
+
+header {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding-top: 4px;
+    padding-bottom: 6px;
+    font-weight: bold;
+}
+
+header img {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    margin-left: 100px;
+    width: 48px;
+    height: 48px;
+    transform: translateY(-25%);
+}
 
 footer {
   background-color: rgba(0, 0, 0, 0.65);
