@@ -33,6 +33,7 @@ ul.sicons {
     margin-bottom: 24px;
     margin-top: 10px;
     padding: 0;
+    height: 73px;
     list-style-type: none;
     text-align: center;
 }
@@ -41,29 +42,40 @@ ul.sicons li {
     display: inline;
     margin-left: 4px;
     margin-right: 4px;
+    height: 50px;
 }
 
 ul.sicons li img {
     width: 50px;
-    height: 50px;
     padding: 4px;
     border-radius: 8px;
-    -webkit-box-reflect: below 4px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(65%, transparent) , to(rgba(250, 250, 250, 0.2)));
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    border-bottom-style: inset;
+    border-bottom-width: 4px;
+
+    -webkit-box-reflect: below 4px
+        -webkit-gradient(linear, left top, left bottom, from(transparent),
+        color-stop(65%, transparent) , to(rgba(250, 250, 250, 0.2)));
+
+    -moz-box-reflect: below 4px
+        -moz-gradient(linear, left top, left bottom, from(transparent),
+        color-stop(65%, transparent) , to(rgba(250, 250, 250, 0.2)));
+
+    -o-box-reflect: below 4px
+        -o-gradient(linear, left top, left bottom, from(transparent),
+        color-stop(65%, transparent) , to(rgba(250, 250, 250, 0.2)));
 }
 
 ul.sicons li a img {
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
+
 ul.sicons li a img:hover {
-  -webkit-transform: translateY(5px);
-  -moz-transform: translateY(5px);
-  -ms-transform: translateY(5px);
-  -o-transform: translateY(5px);
-  transform: translateY(5px);
-  opacity: .9;
+    border-bottom-width: 1px;
+    height: 50px;
 }
 
 /*ul.sicons li:nth-child(1) img { background: #55ACEE; }*/
