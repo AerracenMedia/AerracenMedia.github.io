@@ -73,10 +73,10 @@ ul.sicons li:nth-child(3) img { background: #e52d27; }
 ul.sicons li:nth-child(4) img { background: #f5f5f5; }
 
 footer {
-    background-color: #000;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    text-align: center;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
 }
 
 /* Content Area */
@@ -215,7 +215,7 @@ ul.slist a:visited {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   max-width: 960px;
-  min-height: 955px;
+  min-height: 850px;
   text-align: center;
   padding: 64px;
   margin-left: auto;
