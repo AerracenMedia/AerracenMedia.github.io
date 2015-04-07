@@ -51,6 +51,21 @@ ul.sicons li img {
     -webkit-box-reflect: below 4px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(65%, transparent) , to(rgba(250, 250, 250, 0.2)));
 }
 
+ul.sicons li a img {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+ul.sicons li a img:hover {
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  transform: translateY(5px);
+  opacity: .9;
+}
+
 /*ul.sicons li:nth-child(1) img { background: #55ACEE; }*/
 ul.sicons li:nth-child(1) img { background: #205081; }
 ul.sicons li:nth-child(2) img { background: #FFF; }
