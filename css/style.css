@@ -230,7 +230,7 @@ ul.slist li {
   padding: 4px 6px;
   background-color: rgba(0, 0, 0, 0.4);
   overflow: auto;
-  min-width: 100%;
+  width: 100%;
 }
 
 ul.slist li p {
