@@ -53,6 +53,7 @@
     target.addClass("expanded");
     others.removeClass("expanded");
     target.removeClass("collapsed");
+    others.addClass("shrinkhide");
   });
 
 }());

@@ -36,14 +36,15 @@ ul#archive-list {
 }
 
 ul#archive-list li {
+    opacity:1;
     margin: 4px;
     padding: 8px;
     background-color: rgba(0, 0, 0, 0.65);
     text-align: left;
     border-radius: 8px;
     display: inline-table;
-    -webkit-transition: width 1s, height 1s;
-    transition: width 1s, height 1s;
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s, opacity 1s;
+    transition: width 1s, height 1s, transform 1s, opacity 1s;
 }
 
 ul#archive-list li.collapsed {
@@ -56,6 +57,14 @@ ul#archive-list li.expanded {
     width: 500px;
     height: 500px;
     overflow-y:scroll;
+}
+
+ul#archive-list li.shrinkhide {
+    opacity:0;
+    transform: scale(0,0);
+    -webkit-transform: scale(0,0);
+    -webkit-transition: -webkit-transform 1s, opacity 1s;
+    transition: transform 1s, opacity 1s;
 }
 
 ul#archive-list li .title:hover {
